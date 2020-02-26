@@ -6,12 +6,12 @@ $(function(){
       $perimeter=$('#perimeter'),
       $area=$('#area');
   /*calc button click event*/
-$butCal.click(function(){
+  $butCal.click(function(){
 
-  //get value
-  var w=Number($width.val()),
+//get value
+    var w=Number($width.val()),
       h=Number($height.val());
-  //calculate
+    //calculate
     var p=2*(w+h),
        a=w*h;
 
