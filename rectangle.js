@@ -12,7 +12,6 @@ $butCal.click(function(){
   var w=Number($width.val()),
       h=Number($height.val());
   //calculate
-  /*
     var p=2*(w+h),
        a=w*h;
 
@@ -20,11 +19,9 @@ $butCal.click(function(){
  function roundFractional(x) 
 {
   return Math.round(x*Math.pow(10,3))/Math.pow(10,3);
-}*/
-
-      var rect=rectangle();
+}
   //output
-  $perimeter.val(rect.perimeter(w,h));
-  $area.val(rect.area(w,h));
+  $perimeter.val(roundFractional(p));
+  $area.val(roundFractional(a));
 })
 })
