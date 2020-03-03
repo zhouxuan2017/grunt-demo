@@ -5,7 +5,7 @@ function rectangle(){
     },
     'area':function(width,height)
     {
-      return width/height;
+      return width*height;
     }
   }
 }
