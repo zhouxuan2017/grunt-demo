@@ -1,24 +1,23 @@
-
-  "name": "grunt-demo",
+{
+   "name": "grunt-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "grunt 试炼场",
   "main": "index.js",
   "scripts": {
-    "test": "grunt"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhouxuan2017/grunt-demo.git"
+    "url": "git+https://github.com/wangding/grunt-demo.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "wangding",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zhouxuan2017/grunt-demo/issues"
+    "url": "https://github.com/wangding/grunt-demo/issues"
   },
-  "homepage": "https://github.com/zhouxuan2017/grunt-demo#readme",
+  "homepage": "https://github.com/wangding/grunt-demo#readme",
   "devDependencies": {
-    "grunt": "^1.0.4",
-    "grunt-contrib-imagemin": "^3.1.0"
- }
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1"
+  }
 }
